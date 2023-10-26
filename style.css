@@ -1,0 +1,110 @@
+body{
+	background-color: rgb(50, 50, 50);
+	color: rgb(211, 211, 211);
+	font-family: Helvetica;
+	font-weight: lighter;
+	text-align: center;
+
+}
+
+h1{
+	color: rgb(50, 50, 50);
+	font-weight: bold;
+	letter-spacing: 8px
+
+}
+
+h2{
+	color: rgb(50, 50 ,50);
+}
+
+p{
+	font-weight: lighter;
+}
+	
+#img-me {
+	border-radius: 100%; 
+  	border: 5px solid black;
+
+}
+
+.intro {
+	background: rgb(139, 133, 137);
+	padding: 20px;
+	border-radius: 40px;
+	box-shadow: 0 10px 30px rgba(0,0,0, 0.1);
+	width: 500px
+	margin: 100px 0px;
+	margin-bottom: 50px
+}
+
+.passions{
+	background: rgb(139, 133, 137);
+	padding: 10px;
+	border-radius: 40px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	width: 500px
+	margin: 100px 0px;
+	margin-bottom: 50px;
+}
+
+.socials{
+	background: rgb(139, 133, 137);
+	padding: 20px;
+	border-radius: 40px;
+	box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+	margin: 100px 0px;
+}
+
+.button{
+	background-color: rgb(50, 50, 50);
+	color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+	margin: auto;
+}
+
+.button-insta{
+	background-color: rgb(50, 50, 50);
+	color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+.button-spotify{
+	background-color: rgb(50, 50, 50);
+	color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+.button-linkedin{
+	background-color: rgb(50, 50, 50);
+	color: white;
+	padding: 10px 10px;
+	border-radius: 10px;
+}
+
+@media (max-width: 960px) {
+  .intro {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  .intro {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  .intro {
+    width: 300px;
+  }
+}
+
+
+
+
+
+
+
+
